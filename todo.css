@@ -1,0 +1,54 @@
+body{
+    margin: 0%;
+}
+
+h1{
+    text-align: center;
+    color: yellow;
+    background-color: red;
+    margin-top: 0%;
+    padding: 10px;
+}
+
+#inputDiv{
+    width: 50%;
+    margin: auto;
+}
+#title{
+    width: 90%;
+    border-radius: 3px;
+    padding: 5px;
+    
+}
+
+#checkbox{
+    padding: 5px;
+}
+
+#inputDiv>button{
+    width: 20%;
+    padding: 5px;
+    border-radius: 3px;
+    
+    background-color: red;
+    border: none;
+    margin: 10px;
+}
+
+#taskContainer{
+    text-align: center;
+    margin: auto;
+    font-size: 19px;
+    line-height: 1vh;
+}
+#taskContainer>h2{
+    display: inline-block;
+    
+    padding-bottom:15px ;
+    width: 30%;
+
+}
+
+#taskContainer>button{
+    margin: 0px 10px 10px 0px
+}
