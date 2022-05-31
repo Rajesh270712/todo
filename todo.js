@@ -1,6 +1,8 @@
 let taskContainer = document.querySelector("#taskContainer");
 
 async function fetchAndShowTask() {
+
+  
   try {
     let res = await fetch(`http://localhost:3000/tasks`);
 

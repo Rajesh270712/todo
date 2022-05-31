@@ -10,7 +10,7 @@ async function fetchUpdate() {
 
     let inputEle = document.querySelector("#title");
 
-    inputEle.placeholder = data.title;
+    inputEle.value = data.title;
   } catch (error) {
     console.log(error);
   }
